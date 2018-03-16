@@ -21,7 +21,7 @@ function inc(a) {
 
 function dec(a) {
   let decrement = a;
-  return decrement--;
+  return --a;
 }
 
 function makeInt(n) {

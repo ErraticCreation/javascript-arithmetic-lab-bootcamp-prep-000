@@ -15,12 +15,10 @@ function divide(a, b) {
 }
 
 function inc(a) {
-  let increment = a;
-  return increment++;
+  return ++a;
 }
 
 function dec(a) {
-  let decrement = a;
   return --a;
 }
 
